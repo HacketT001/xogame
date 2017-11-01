@@ -28,8 +28,13 @@
         <activity
             android:name=".activities.MainMenuActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".activities.gameEntities.ActivityGamingFiled"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" ></activity>
+        <activity
+            android:name=".activities.gameEntities.ActivityGamingFiled"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activities.StatisticActivity"
+            android:label="@string/title_activity_statistic"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
