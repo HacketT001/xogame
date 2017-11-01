@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1090007135328",
+    "firebase_url": "https://xogametwo.firebaseio.com",
+    "project_id": "xogametwo",
+    "storage_bucket": "xogametwo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090007135328:android:dabf7cf8da3a769d",
+        "android_client_info": {
+          "package_name": "com.vladyslavboiko.xogametwo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090007135328-aht8ehjfatce7g0v2jt81krgqqf5el09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vladyslavboiko.xogametwo",
+            "certificate_hash": "35024ba5bdfcc2a9a198534d14cef212487218f0"
+          }
+        },
+        {
+          "client_id": "1090007135328-jco25sg1d1aktnnufv576pit255i8kp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF2s75RldmHmmmiELVDhHozs2VvrCZmRQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090007135328-jco25sg1d1aktnnufv576pit255i8kp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

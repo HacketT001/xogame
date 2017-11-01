@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">XO GAME</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="enter_your_email">Enter your email:</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="mark_from_shaldenko">Нам бы оценочку</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in did not succeed</string>
+    <string name="reg_fail">Something happened wrong</string>
+    <string name="reg_succes">Registration succeed</string>
+    <string name="logl">Log in</string>
+
+    <string name="re_password">Re-enter your password</string>
+    <string name="reg_err">Something wrong</string>
+    <string name="pass_eq">Passes not equl.</string>
+    <string name="username_str">Enter your username</string>
+
+    <!-- MENU STRING ARRAY-->
+
+    <string-array name="list_menu">
+        <item>SINGLEPLAYER</item>
+        <item>MULTIPLAYER</item>
+        <item>STATISTIC</item>
+
+    </string-array>
+
+</resources>

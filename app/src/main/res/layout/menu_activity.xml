@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vladyslavboiko.xogametwo.activities.MainMenuActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/name_bar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:id="@+id/menu_username_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawableEnd="@drawable/ic_exit_to_app_black_24dp"
+                android:drawableRight="@drawable/ic_exit_to_app_black_24dp"
+                android:text="USERNAME"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+
+        <com.mcxtzhang.swipemenulib.SwipeMenuLayout
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/menu_first"
+            android:layout_marginTop="100dp"
+            android:layout_below="@id/name_bar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:clickable="true"
+            android:paddingBottom="1dp">
+
+            <TextView
+                android:id="@+id/first_item_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="SINGLEPLAYER"
+                android:textSize="30dp"
+                android:drawableStart="@drawable/ic_chevron_left_black_24dp"
+                android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+
+            <Button
+                android:id="@+id/first_item_btnfirst"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="#acadae"
+                android:text="3 X 3"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/first_item_btnsecond"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:clickable="true"
+                android:text="4 X 4"
+                android:textColor="@android:color/white"/>
+
+        </com.mcxtzhang.swipemenulib.SwipeMenuLayout>
+
+        <com.mcxtzhang.swipemenulib.SwipeMenuLayout
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/menu_second"
+            android:layout_below="@id/menu_first"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:clickable="true"
+            app:leftSwipe="true"
+            android:paddingBottom="1dp">
+
+
+
+            <TextView
+                android:id="@+id/second_item_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="MULTIPLAYER"
+                android:textSize="30dp"
+                android:drawableStart="@drawable/ic_chevron_left_black_24dp"
+                android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+
+            <Button
+                android:id="@+id/second_item_btnfirst"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="#acadae"
+                android:text="HOST"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/second_item_btnsecond"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:clickable="true"
+                android:text="CLIENT"
+                android:textColor="@android:color/white"/>
+
+
+        </com.mcxtzhang.swipemenulib.SwipeMenuLayout>
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/menu_second"
+            android:id="@+id/btnStat"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:text="STATISTIC"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/black_overlay"
+          />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/score_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="bottom"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="526dp">
+
+        <TextView
+            android:id="@+id/menu_score_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="SCORE"
+            android:textSize="20sp"
+           />
+
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
