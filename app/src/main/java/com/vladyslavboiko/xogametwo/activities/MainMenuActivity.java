@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import com.mcxtzhang.swipemenulib.SwipeMenuLayout;
 import com.vladyslavboiko.xogametwo.R;
-import com.vladyslavboiko.xogametwo.activities.gameEntities.ActivityGamingFiled;
 import com.vladyslavboiko.xogametwo.game.GameControllerInstructions;
 
 

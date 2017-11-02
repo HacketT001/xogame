@@ -1,8 +1,6 @@
 package com.vladyslavboiko.xogametwo.activities;
 
-import android.support.design.widget.TabLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -23,7 +21,7 @@ import com.vladyslavboiko.xogametwo.R;
 
 public class StatisticActivity extends AppCompatActivity {
 
-    
+
     private ViewPager mViewPager;
 
     @Override

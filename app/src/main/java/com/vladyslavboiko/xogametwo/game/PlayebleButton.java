@@ -1,4 +1,4 @@
-package com.vladyslavboiko.xogametwo.activities.gameEntities;
+package com.vladyslavboiko.xogametwo.game;
 
 import android.content.Context;
 import android.os.Build;

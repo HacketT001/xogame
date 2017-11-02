@@ -1,5 +1,7 @@
 package com.vladyslavboiko.xogametwo.game;
 
+import android.icu.text.TimeZoneFormat;
+
 /**
  * Created by Tom on 09.10.2017.
  */
@@ -8,30 +10,31 @@ public class GameProcessController {
 
     private AIPlayer player;
 
-    private int fieldForAI[][];
+    private PlayebleButton[][] field;
 
     public GameProcessController(){
 
     }
-    public GameProcessController(int instruction){
-        if(instruction == GameControllerInstructions.FIELD_INSTRUCTION_9){
-            fieldForAI = new int[3][3];
-            for (int i = 0;i < 3; i++)
-                for (int j = 0; j < 3; j++)
+    public GameProcessController(int instruction, PlayebleButton[][] field){
 
-                    fieldForAI[i][j] = GameControllerInstructions.NEUTRAL_FIELD;
+        this.field = field;
 
-            player = new AIForNineFileds(fieldForAI);
-        }
-        else{
-            player = new AIForSixteenFields(fieldForAI);
-            fieldForAI = new int[4][4];
-            for (int i = 0;i < 4; i++)
-                for (int j = 0; j < 4; j++)
+        if(instruction == GameControllerInstructions.FIELD_INSTRUCTION_9)
+            player = new AIForNineFileds(field);
+        else player = new AIForSixteenFields(field);
 
-                    fieldForAI[i][j] = GameControllerInstructions.NEUTRAL_FIELD;
-        }
+
     }
+
+    public boolean isPossibleToContinue(){
+        return false;
+    }
+
+    public int getGameResult(){
+        return GameControllerInstructions.TIE;
+    }
+
+
 
 
     //Проверка на победу

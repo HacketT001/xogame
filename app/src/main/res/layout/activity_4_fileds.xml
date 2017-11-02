@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.vladyslavboiko.xogametwo.activities.gameEntities.ActivityGamingFiled">
+    tools:context="com.vladyslavboiko.xogametwo.activities.ActivityGamingFiled">
     <GridLayout
         android:layout_width="320dp"
         android:layout_height="320dp"
@@ -12,7 +12,7 @@
         android:rowCount="4"
         android:columnCount="4"
         >
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_00"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -20,7 +20,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             />
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_01"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -28,7 +28,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
             />
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_02"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -37,7 +37,7 @@
             android:layout_marginLeft="10dp"
             />
 
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_03"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -46,7 +46,7 @@
             android:layout_marginLeft="10dp"/>
 
 
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_10"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -54,7 +54,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="5dp"
             />
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_11"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -62,7 +62,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             />
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_12"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -71,7 +71,7 @@
             android:layout_marginLeft="10dp"
             />
 
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_13"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -81,7 +81,7 @@
 
 
 
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_20"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -89,7 +89,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="5dp"
             />
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_21"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -97,7 +97,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             />
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_22"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -106,7 +106,7 @@
             android:layout_marginLeft="10dp"
             />
 
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_23"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -115,7 +115,7 @@
             android:layout_marginLeft="10dp"/>
 
 
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_30"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -123,7 +123,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="5dp"
             />
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_31"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -131,7 +131,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             />
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_32"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -140,7 +140,7 @@
             android:layout_marginLeft="10dp"
             />
 
-        <com.vladyslavboiko.xogametwo.activities.gameEntities.PlayebleButton
+        <com.vladyslavboiko.xogametwo.game.PlayebleButton
             android:id="@+id/buttonFour_field_33"
             android:layout_width="70dp"
             android:layout_height="70dp"

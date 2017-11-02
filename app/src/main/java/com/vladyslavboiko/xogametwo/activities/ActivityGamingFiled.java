@@ -1,10 +1,11 @@
-package com.vladyslavboiko.xogametwo.activities.gameEntities;
+package com.vladyslavboiko.xogametwo.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.vladyslavboiko.xogametwo.R;
+import com.vladyslavboiko.xogametwo.game.PlayebleButton;
 import com.vladyslavboiko.xogametwo.game.GameControllerInstructions;
 import com.vladyslavboiko.xogametwo.game.GameProcessController;
 
@@ -28,13 +29,13 @@ public class ActivityGamingFiled extends AppCompatActivity {
 
             setContentView(R.layout.activity_3_fields);
             initializationForNineButton();
-            gameProcessController = new GameProcessController(GameControllerInstructions.FIELD_INSTRUCTION_9);
+            gameProcessController = new GameProcessController(GameControllerInstructions.FIELD_INSTRUCTION_9, gameField);
 
         }
         else {
             setContentView(R.layout.activity_4_fileds);
             initializationForSixteenButton();
-            gameProcessController = new GameProcessController(GameControllerInstructions.FIELD_INSTRUCTION_16);
+            gameProcessController = new GameProcessController(GameControllerInstructions.FIELD_INSTRUCTION_16,gameField);
         }
     }
 

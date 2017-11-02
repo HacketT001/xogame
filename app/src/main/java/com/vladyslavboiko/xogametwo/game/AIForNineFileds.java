@@ -6,9 +6,9 @@ package com.vladyslavboiko.xogametwo.game;
 
 public class AIForNineFileds implements AIPlayer {
 
-    private int field[][];
+    private PlayebleButton field[][];
 
-    public AIForNineFileds(int field[][]){
+    public AIForNineFileds(PlayebleButton field[][]){
         this.field = field;
     }
 
