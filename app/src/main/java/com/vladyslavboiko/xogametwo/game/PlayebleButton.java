@@ -19,6 +19,7 @@ public class PlayebleButton extends android.support.v7.widget.AppCompatButton {
     private String[] symbol = {" ","X","O"};
 
 
+
     public PlayebleButton(Context context) {
         super(context);
         initButton();

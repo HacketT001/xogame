@@ -10,6 +10,7 @@ public class GameProcessController {
     private static final int PLAYER_TRUE_RESULT = 1;
     private static final int FALSE = 0;
 
+    private int lastEnemyMove;
     private int fieldLenght;
 
     private AIPlayer player;
@@ -17,7 +18,7 @@ public class GameProcessController {
     private PlayebleButton[][] field;
 
 
-    public GameProcessController(int instruction, PlayebleButton[][] field) {
+    public GameProcessController(int instruction, PlayebleButton[][] field, int lenght) {
 
         this.field = field;
 
@@ -31,11 +32,15 @@ public class GameProcessController {
     }
 
 
+    public boolean canContinue(){
+
+    }
+
     public int getGameResult() {
         return GameControllerInstructions.TIE;
     }
 
-
+    //GAMERESULT METHODS
     private boolean isTie() {
         return !isVictory() && !isDefeat() && !isExistEmptyFields();
     }
@@ -50,6 +55,7 @@ public class GameProcessController {
                 checkVertical() == ENEMY_TRUE_RESULT;
     }
 
+    //METHODS FOR CHECKING FIELDS.
     private boolean isExistEmptyFields() {
         for (int i = 0; i < fieldLenght; i++)
             for (int j = 0; j < fieldLenght; j++)
