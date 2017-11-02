@@ -13,9 +13,10 @@ public interface GameControllerInstructions {
 
      int NEUTRAL_FIELD = 0;
      int PLAYERS_FIELD = 1;
-     int AI_FIELD = 2;
+     int ENEMY_FIELD = 2;
 
      int PLAYER_LOSE = -1;
      int PLAYER_WIN = 1;
      int TIE = 0;
+     int CAN_CONTINUE = 2;
 }
