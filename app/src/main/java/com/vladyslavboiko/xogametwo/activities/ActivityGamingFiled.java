@@ -59,40 +59,8 @@ public class ActivityGamingFiled extends AppCompatActivity {
         gameField[2][1] = (PlayebleButton) findViewById(R.id.buttonThree_field_21);
         gameField[2][2] = (PlayebleButton) findViewById(R.id.buttonThree_field_22);
 
-        initIDsArray();
+ 
     }
 
-    public void initForSixteenButton() {
-        gameField = new PlayebleButton[fieldsLenght][fieldsLenght];
-        buttonIDs = new int[fieldsLenght][fieldsLenght];
 
-        gameField[0][0] = (PlayebleButton) findViewById(R.id.buttonFour_field_00);
-        gameField[0][1] = (PlayebleButton) findViewById(R.id.buttonFour_field_01);
-        gameField[0][2] = (PlayebleButton) findViewById(R.id.buttonFour_field_02);
-        gameField[0][3] = (PlayebleButton) findViewById(R.id.buttonFour_field_03);
-
-        gameField[1][0] = (PlayebleButton) findViewById(R.id.buttonFour_field_10);
-        gameField[1][1] = (PlayebleButton) findViewById(R.id.buttonFour_field_11);
-        gameField[1][2] = (PlayebleButton) findViewById(R.id.buttonFour_field_12);
-        gameField[1][3] = (PlayebleButton) findViewById(R.id.buttonFour_field_13);
-
-        gameField[2][0] = (PlayebleButton) findViewById(R.id.buttonFour_field_20);
-        gameField[2][1] = (PlayebleButton) findViewById(R.id.buttonFour_field_21);
-        gameField[2][2] = (PlayebleButton) findViewById(R.id.buttonFour_field_22);
-        gameField[2][3] = (PlayebleButton) findViewById(R.id.buttonFour_field_23);
-
-        gameField[3][0] = (PlayebleButton) findViewById(R.id.buttonFour_field_30);
-        gameField[3][1] = (PlayebleButton) findViewById(R.id.buttonFour_field_31);
-        gameField[3][2] = (PlayebleButton) findViewById(R.id.buttonFour_field_32);
-        gameField[3][3] = (PlayebleButton) findViewById(R.id.buttonFour_field_33);
-
-        initIDsArray();
-    }
-
-    public void initIDsArray() {
-
-        for (int i = 0; i < fieldsLenght; i++)
-            for (int j = 0; j < fieldsLenght; j++)
-                buttonIDs[i][j] = gameField[i][j].getId();
-    }
 }
